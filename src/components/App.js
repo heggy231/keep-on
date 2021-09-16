@@ -1,14 +1,15 @@
 import React from "react";
-import Header from "./components/common/Header";
-import FormMood from "./components/FormMood";
-import FormSignUp from "./components/FormSignUp";
+import Header from "./common/Header";
+import FormMood from "./FormMood";
+import FormSignUp from "./FormSignUp";
+import HomePage from "./HomePage";
 
 const App = () => {
   const getPage = () => {
     const route = window.location.pathname;
     if (route === "/formMood") return <FormMood />;
     if (route === "/formSignUp") return <FormSignUp />;
-    return;
+    return <HomePage />;
   };
 
   return (
