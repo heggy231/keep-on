@@ -1,11 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 const Header = () => {
-  const activeStyle = {
-    color: "orange",
-  };
-
   return (
     <nav>
       <a href="/">Home</a>
