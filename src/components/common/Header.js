@@ -8,17 +8,11 @@ const Header = () => {
 
   return (
     <nav>
-      <NavLink activeStyle={activeStyle} exact to="/">
-        Home
-      </NavLink>
+      <a href="/">Home</a>
       {" | "}
-      <NavLink activeStyle={activeStyle} to="/formMood">
-        Form Mood
-      </NavLink>
+      <a href="/formSignUp">Form Sign Up</a>
       {" | "}
-      <NavLink activeStyle={activeStyle} to="/formSignUp">
-        Form Sign Up
-      </NavLink>
+      <a href="/formMood">Form Mood</a>
     </nav>
   );
 };
