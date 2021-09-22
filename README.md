@@ -51,6 +51,6 @@ export default App;
 ## FAQ:
 
 - What does render do?
-  - `React.js` uses virtual DOM to update any changes to my app. `.render` function updates any changes to the virtual DOM. ReactDOM.render() renders the changes to the nodes in the virtual DOM.
+  - `React.js` uses virtual DOM to update any changes to my app. `.render` function updates any changes to the virtual DOM. ReactDOM.render() renders the changes to the nodes in the virtual DOM. Finally, React.js's Virtual DOM updates the DOM with the changes.
     > `ReactDOM.render(<App />, document.getElementById("root"));`
     - Ref: https://discuss.codecademy.com/t/i-have-a-question-about-reactdom-render/504205/3
